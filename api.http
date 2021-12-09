@@ -1,0 +1,29 @@
+http://localhost:3000/
+
+###
+http://localhost:3000/blocks
+
+###
+POST http://localhost:3000/blocks
+
+
+
+###
+http://localhost:3000/mempool
+
+###
+http://localhost:3000/status
+
+###
+http://localhost:3000/balance/wallet
+
+
+###
+POST http://localhost:3000/transactions
+
+{
+    "to":"shin",
+    "amount": 50
+}
+
+###
